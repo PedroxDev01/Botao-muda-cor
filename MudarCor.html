@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        color: aliceblue;
+        background-color: rgb(89, 77, 170);
+        font-family: cursive;
+        font-size: 45px;
+        padding: 200px;
+        text-align: center;
+        text-shadow: 4px 4px 3px rgb(48, 41, 92);
+    }
+    button{
+        cursor: pointer;
+        color: rgb(55, 47, 105);
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-shadow: 3px 3px 3px 2px rgb(48, 41, 92);
+    }
+    button:hover{
+        background-color: rgb(55, 47, 105);
+        color: aliceblue;
+    }
+</style>
+<body>
+    <h1>Clique no botão ▼</h1>
+
+    <button id="meuBotao" onclick="mudarCor()">Clique aqui</button>
+
+    <script>
+        function mudarCor(){
+            document.body.style.backgroundColor = "aliceblue";
+            document.body.style.color = "rgb(89, 77, 170)";
+
+            var botao = document.getElementById("meuBotao");
+            botao.innerText = "Surpresa";
+        }
+    </script>
+</body>
+</html>
