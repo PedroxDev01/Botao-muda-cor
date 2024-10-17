@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    padding: 200px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 5px 2px gray;
+    background-color: bisque;
+}
+
+.botao{
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#azul{
+    background-color: rgb(6, 143, 255);
+    box-shadow: 5px 5px 4px rgb(20, 78, 126);
+    transition: transform 0.3s ease;
+}
+
+#vermelho{
+    background-color: red;
+    box-shadow: 5px 5px 4px rgb(121, 15, 15);
+    transition: transform 0.3s ease;
+}
+
+#verde{
+    background-color: rgb(11, 161, 11);
+    box-shadow: 5px 5px 4px rgb(10, 88, 10);
+    transition: transform 0.3s ease;
+}
+
+#branco{
+    background-color: rgb(239, 239, 240);
+    box-shadow: 5px 5px 4px rgb(127, 128, 129);
+    transition: transform 0.3s ease;
+}
+
+#azul:hover,
+#azul:focus,
+#azul:active{
+    transform: scale(1.1);
+}
+
+#vermelho:hover,
+#vermelho:focus,
+#vermelho:active{
+    transform: scale(1.1);
+}
+
+#verde:hover,
+#verde:focus,
+#verde:active{
+    transform: scale(1.1);
+}
+
+#branco:hover,
+#branco:focus,
+#branco:active{
+    transform: scale(1.1);
+}
